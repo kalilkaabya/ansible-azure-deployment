@@ -1,0 +1,11 @@
+vm_size: Basic_A1
+storage_container: srv003
+my_storage_blob: srv003.vhd
+admin_username: labadmin
+admin_username: ansible
+admin_password: RedHat123456!
+pubipname: srv003
+
+  - name: 
+     debug:
+      msg: "Secret: {{ secret }}"
