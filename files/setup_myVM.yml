@@ -8,7 +8,7 @@
     ssh_password_enabled: false
     ssh_public_keys:
       - path: /home/azureuser/.ssh/authorized_keys
-        key_data: <your-key-data>
+        key_data: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC55gMWnehtZ2D6v8m8Qh6ZuVdUgeH9sdcIpTgdq6dwbsJ8wqyXrfQU8NLsHTVxHCbWC/ux2hyOK6MAPxOUSC4X6u+asx61RRn39mUaJ/0qfpwAtP7/059ZxEHs/rZz21jm9HR9sqUrowqgwgbTX8FkDCR6AhqHE+naiWfA0DeIJ5Iywd2hdb2LlncA0fGdlwFPqfKRdOfRIrt4KADt4rR3X5q1m1P+QcuptGxx6CA/a3WLIMfLd6Kb7AgA5mRrC0DSvwUwJhnLD/b2YYQmBoX3G5d2kG2GQoCLjGxdUlU4L+Zc12hS15yqIhAVbRLkkVCeVZrab7pisvA+NjVr5c6J ansible@ansible.rhlab.ch
     network_interfaces: myNIC
     image:
       offer: CentOS
