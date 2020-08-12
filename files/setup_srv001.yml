@@ -6,6 +6,6 @@ admin_username: ansible
 admin_password: RedHat123456!
 pubipname: srv003
 
-  - name: 
-     debug:
-      msg: "Secret: {{ secret }}"
+#  - name: 
+ #    debug:
+   #   msg: "Secret: {{ secret }}"
